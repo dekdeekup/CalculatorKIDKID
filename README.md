@@ -23,3 +23,7 @@ The debug APK is `app/build/outputs/apk/debug/app-debug.apk`. Do not publish it 
 ## Release acceptance
 
 See [remaining verification decisions](docs/REMAINING_VERIFICATION.md), [physical-device checklist](docs/PHYSICAL_DEVICE_ACCEPTANCE.md), and [owner-controlled signed AAB procedure](docs/SIGNED_AAB_RELEASE.md). Physical checks remain unrun; no production signing key creation or Play submission is authorized.
+
+## GitHub Actions downloads
+
+The manual-only **Android manual test build** workflow produces the APK, unsigned AAB, exact-commit source ZIP and combined delivery as GitHub Actions artifacts. It has read-only repository permissions and performs no Release/Play publication. See [setup, first-run limitation and download instructions](docs/GITHUB_ACTIONS.md). Its first normal manual dispatch requires the reviewed workflow to be on the default branch; this PR is not merged automatically.
