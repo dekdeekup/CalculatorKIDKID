@@ -1,0 +1,21 @@
+.gradle/
+**/build/
+local.properties
+*.jks
+*.keystore
+.kotlin/
+
+# Local/CI deliverables and credentials never belong in the public source branch.
+artifacts/
+*.apk
+*.aab
+*.zip
+*.7z
+*.p12
+*.pfx
+*.pem
+*.key
+.env
+.env.*
+credentials.json
+service-account*.json

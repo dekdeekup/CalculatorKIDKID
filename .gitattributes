@@ -1,0 +1,2 @@
+# The generated Windows Gradle launcher uses intentional CRLF line endings.
+*.bat whitespace=cr-at-eol

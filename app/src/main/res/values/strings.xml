@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">เครื่องคิดเลข คิดคิด</string>
+    <string name="history">History</string>
+    <string name="settings">Settings</string>
+    <string name="about">About</string>
+    <string name="expression">Calculation expression</string>
+    <string name="result">Calculation result</string>
+    <string name="empty">Empty</string>
+    <string name="paste">Paste</string>
+    <string name="copy_result">Copy result</string>
+    <string name="undo">Undo</string>
+    <string name="redo">Redo</string>
+    <string name="backspace">Backspace</string>
+    <string name="sign">Change sign</string>
+    <string name="clear">Clear expression</string>
+    <string name="equals">Equals</string>
+    <string name="multiply">Multiply</string>
+    <string name="divide">Divide</string>
+    <string name="plus">Plus</string>
+    <string name="minus">Minus</string>
+    <string name="percent">Percent</string>
+    <string name="open_parenthesis">Open parenthesis</string>
+    <string name="close_parenthesis">Close parenthesis</string>
+    <string name="decimal">Decimal point</string>
+    <string name="history_error">History unavailable. Your database has been preserved; calculation remains available.</string>
+    <string name="save_error">Could not save. Durable storage was not confirmed.</string>
+    <string name="input_error">Invalid input or input limit exceeded.</string>
+    <string name="calculation_error">Cannot evaluate this expression. Check incomplete input, division by zero, or supported limits.</string>
+    <string name="busy">Calculating…</string>
+    <string name="partial_paste">Only part of the text was pasted</string>
+    <string name="back">Back</string>
+    <string name="undo_delete">Undo deletion</string>
+    <string name="clear_all">Clear all history</string>
+    <string name="clear_history_question">Permanently clear all permanent history? This cannot be undone.</string>
+    <string name="delete">Delete</string>
+    <string name="session_history">Session history</string>
+    <string name="permanent_history">Permanent history</string>
+    <string name="cancel">Cancel</string>
+    <string name="confirm">Confirm</string>
+    <string name="language">Language</string>
+    <string name="theme">Theme</string>
+    <string name="system">System</string>
+    <string name="light">Light</string>
+    <string name="dark">Dark</string>
+    <string name="places">Displayed decimal places</string>
+    <string name="rounding">Rounding mode</string>
+    <string name="days">History retention (local-calendar days)</string>
+    <string name="maximum">Maximum history entries</string>
+    <string name="reset_settings">Reset settings</string>
+    <string name="reset_question">Reset settings only? Memory and history will be preserved.</string>
+    <string name="about_text">Calculator Kid Kid 0.1.0\n\nเครื่องคิดเลข คิดคิด\n\nThis calculator works offline. No ads, accounts, Internet permission, analytics, or personal data collection. Memory, settings, and calculation history are stored only on this device. Android backup is disabled. Clipboard access occurs only when you choose Paste or Copy result.\n\nLong press M1/M2 to erase that register immediately. Long press the result to copy. Hardware: Enter =, Ctrl+Z Undo, Ctrl+Shift+Z or Ctrl+Y Redo, Ctrl+V Paste.\n\nDevelopment build: contextual percent edge cases and device acceptance remain unverified. A public privacy-policy URL and signing are required before Play release.</string>
+</resources>
